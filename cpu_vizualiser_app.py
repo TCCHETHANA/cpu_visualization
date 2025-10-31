@@ -295,3 +295,4 @@ elif page == "🔁 Round Robin":
         st.success(f"Average Waiting Time: {avg_wt:.2f}")
         st.info(f"Average Turnaround Time: {avg_tat:.2f}")
         plot_gantt(gantt, "Round Robin Gantt Chart")
+
